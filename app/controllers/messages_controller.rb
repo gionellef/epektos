@@ -25,7 +25,4 @@ class MessagesController < ApplicationController
 
     puts @message.subresource_uris
   end
-
-  def index
-  end
 end
