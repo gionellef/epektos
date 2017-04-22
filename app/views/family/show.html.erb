@@ -1,0 +1,13 @@
+<h3>Family</h3>
+<% @family.each do |f| %>
+  <p>
+    <%= f[0] %>:
+    <%= f[1] %>
+  </p>
+<% end %>
+<%= link_to 'Enroll more family members', patient_session_path %>
+<br>
+<%= link_to 'Unenroll family members', patient_session_path %>
+
+<br><br>
+<%= link_to 'Back', root_path %>

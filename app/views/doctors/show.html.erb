@@ -1,0 +1,13 @@
+<h3>Doctors</h3>
+<% @doctors.each do |d| %>
+  <p>
+    <%= d[0] %>:
+    <%= d[1] %>
+  </p>
+<% end %>
+<%= link_to 'Add more doctors', patient_session_path %>
+<br>
+<%= link_to 'Remove doctors', patient_session_path %>
+
+<br><br>
+<%= link_to 'Back', root_path %>
