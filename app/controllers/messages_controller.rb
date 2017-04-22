@@ -19,7 +19,7 @@ class MessagesController < ApplicationController
 
     @message = @client.account.messages.create(
       from: '+12568294323',
-      to: '+639778330802',
+      to: '+639989661581',
       body: 'PLEASE HELP ME Im HAVING A HEAART ATTAK!'
     )
 
